@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AliyunLogObjc_Example' do
+  pod 'AliyunLogObjc', :path => '../'
+
+  target 'AliyunLogObjc_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

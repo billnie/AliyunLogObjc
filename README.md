@@ -13,7 +13,7 @@ This SDK is mostly interpreted from the official one, but the quality of code ha
 ### Carthage
 
 ```
-github "lujiajing1126/AliyunLogObjc"
+pod 'AliyunLogObjc', :git => 'https://github.com/billnie/AliyunLogObjc.git'
 ```
 
 CocoaPods is not supported now
